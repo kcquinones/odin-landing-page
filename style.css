@@ -16,3 +16,34 @@
   font-weight: 100;
   color: #1f2937;
 }
+
+ul {
+  display: flex;
+  gap: 12px;
+  list-style-type: none;
+  padding: 10px 50px 10px 50px;
+}
+
+li.logo {
+  margin-right: auto;
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.hero-main {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.placeholder {
+  background-color: white;
+  width: 250px;
+  height: 80px;
+}
+
+.hero-scnd,
+.left-links {
+  font-size: 18px;
+  color: #e5e7eb;
+}
