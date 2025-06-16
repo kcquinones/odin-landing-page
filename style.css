@@ -39,11 +39,26 @@ li.logo {
 .placeholder {
   background-color: white;
   width: 250px;
-  height: 80px;
+  height: 100px;
 }
 
 .hero-scnd,
 .left-links {
   font-size: 18px;
   color: #e5e7eb;
+}
+
+.hero {
+  display: flex;
+  padding: 50px;
+  gap: 20px;
+}
+
+button {
+  background-color: #3882f6;
+  padding: 5px 18px;
+  font-size: 10px;
+  color: white;
+  border: none;
+  border-radius: 5px;
 }
