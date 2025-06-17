@@ -2,6 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
   font-family: Roboto, sans-serif;
 }
 
@@ -11,10 +16,16 @@
 
 .quote {
   background-color: #e5e7eb;
-  font-size: 36px;
+  font-size: 24px;
   font-style: italic;
   font-weight: 100;
   color: #1f2937;
+  text-align: justify;
+  padding: 50px;
+}
+
+.quote-author {
+  text-align: right;
 }
 
 ul {
@@ -87,4 +98,27 @@ button {
   border-radius: 5px;
   height: 100px;
   width: 100px;
+}
+
+.call-to-action {
+  display: flex;
+  background-color: #3882f6;
+  padding: 40px 100px;
+  border-radius: 5px;
+  justify-content: space-between;
+  color: #f9faf8;
+}
+
+.cta {
+  padding: 50px;
+}
+
+.cta-btn {
+  border: #f9faf8 solid 2px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #f9faf8;
 }
